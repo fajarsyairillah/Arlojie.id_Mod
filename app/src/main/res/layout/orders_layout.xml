@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_cardd"
+        >
+
+        <TextView
+            android:id="@+id/myOrders_user_name"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="  Nama User"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:drawableTop="@drawable/nama_user"
+            />
+
+        <TextView
+            android:id="@+id/myOrders_phone_number"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text="Nomor Telepon"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:drawableTop="@drawable/phone_number"
+            />
+
+        <TextView
+            android:id="@+id/myOrders_total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Harga"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@id/myOrders_phone_number"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:drawableTop="@drawable/indonesianrupiah"
+            />
+
+        <TextView
+            android:id="@+id/myOrders_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@id/myOrders_total_price"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/status_delivery"
+            />
+
+        <TextView
+            android:id="@+id/myOrders_address_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat, Kota"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@id/myOrders_state"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/alamat"
+            />
+
+        <TextView
+            android:id="@+id/myOrders_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Dan Waktu Pesanan"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@id/myOrders_address_city"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/calendar"
+            />
+
+        <TextView
+            android:id="@+id/myOrders_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jasa Pengiriman"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_below="@id/myOrders_date_time"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/truk_kirim"
+            />
+        <Button
+            android:id="@+id/myShow_all_products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Tampilkan Pesanan"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button2"
+            android:layout_below="@id/myOrders_delivery"
+            android:drawableLeft="@drawable/checklist_btn"
+            />
+        <Button
+            android:id="@+id/myConfirm_payments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Konfirmasi Pembayaran"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button2"
+            android:layout_below="@id/myShow_all_products"
+            android:drawableLeft="@drawable/bill"
+            />
+
+        <Button
+            android:id="@+id/myShow_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Tampilkan Pengiriman"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button2"
+            android:layout_below="@id/myConfirm_payments"
+            android:drawableLeft="@drawable/acc_deliv"
+            />
+
+        </RelativeLayout>
+
+    </RelativeLayout>

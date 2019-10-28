@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tengah">
+
+    <TextView
+        android:id="@+id/status1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status Order"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/status2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Not Payment : Belum Melakukan Pembayaran"
+        android:textSize="17sp"
+        android:layout_below="@+id/status1"
+        android:textStyle="bold"
+        android:textColor="#ac0404"
+        />
+
+    <TextView
+        android:id="@+id/status3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Confirm Payment : Sudah Melakukan Pembayaran Tetapi Belum Dikonfirmasi Admin"
+        android:textSize="17sp"
+        android:layout_below="@+id/status2"
+        android:textStyle="bold"
+        android:textColor="#17870d"
+        />
+    <TextView
+        android:id="@+id/status4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Payment : Konfirmasi Pembayaran Pelanggan Sudah Dikonfirmasi Admin"
+        android:textSize="17sp"
+        android:layout_below="@+id/status3"
+        android:textStyle="bold"
+        android:textColor="#07098f"
+        />
+    <TextView
+        android:id="@+id/status5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Shipping : Barang Sudah Dikirim Admin"
+        android:textSize="17sp"
+        android:layout_below="@+id/status4"
+        android:textStyle="bold"
+        android:textColor="#8c088a"
+        />
+
+    <TextView
+        android:id="@+id/status6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Complete : Barang Sudah Diterima Pelanggan"
+        android:textSize="17sp"
+        android:layout_below="@+id/status5"
+        android:textStyle="bold"
+        android:textColor="#dccf18"
+        />
+</RelativeLayout>

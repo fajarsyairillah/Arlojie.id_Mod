@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminAddNewProductActivity"
+    android:background="@drawable/background_tengah"
+    >
+
+    <ImageView
+        android:id="@+id/select_product_image"
+        android:layout_width="345dp"
+        android:layout_height="245dp"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ganti_foto_128"
+        android:background="@drawable/input_design"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        />
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_product_image"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:maxLength="20"
+        android:hint="Nama Barang"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_name"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:maxLength="50"
+        android:hint="Deskripsi Barang"
+        android:textColorHint="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design"
+        android:textColor="#ffffff"
+        />
+
+    <me.abhinay.input.CurrencyEditText
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_description"
+        android:inputType="number"
+        android:layout_marginTop="25dp"
+        android:padding="15dp"
+        android:hint="Harga Barang"
+        android:maxLength="8"
+        android:textColorHint="#02a9f3"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design_blue"
+        android:textColor="#02a9f3"
+        />
+
+
+    <EditText
+        android:id="@+id/product_stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_price"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:hint="Jumlah Stok"
+        android:maxLength="3"
+        android:textColorHint="#02a9f3"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/input_design_blue"
+        android:textColor="#02a9f3"
+        />
+
+    <Button
+        android:id="@+id/add_new_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_stock"
+        android:text="Tambah Barang"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_buttons"
+        android:drawableLeft="@drawable/tambah_produk"
+        />
+
+</RelativeLayout>

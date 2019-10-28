@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="17dp"
+    android:background="@android:color/white"
+    tools:context=".Admin.AdminMaintainProductsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_tengah">
+
+        <ImageView
+            android:id="@+id/product_image_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:background="@drawable/input_design"
+            android:layout_below="@+id/product_name"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            />
+        <EditText
+            android:id="@+id/product_name_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_image_maintain"
+            android:hint="Nama Barang"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:maxLength="20"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_design"
+            android:textColor="#fff"
+            />
+
+        <me.abhinay.input.CurrencyEditText
+            android:id="@+id/product_price_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_name_maintain"
+            android:hint="Harga Barang"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:maxLength="9"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_design"
+            android:textColor="#fff"
+            />
+
+
+        <EditText
+            android:id="@+id/product_description_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_price_maintain"
+            android:hint="Deskripsi Barang"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:maxLength="50"
+            android:padding="12dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/input_design"
+            android:textColor="#fff"
+            />
+
+        <EditText
+            android:id="@+id/product_stock_maintain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_description_maintain"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="41dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/input_design_blue"
+            android:hint="Stok Barang"
+            android:inputType="number"
+            android:maxLength="50"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:textColor="#02a9f3"
+            android:textColorHint="#02a9f3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/all_changes_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_stock_maintain"
+            android:text="Memperbarui Data Barang"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/bg_buttons"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@drawable/edit_produk"
+            />
+
+      <com.rey.material.widget.FloatingActionButton
+          android:id="@+id/delete_product_btn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="8dp"
+          android:layout_below="@+id/all_changes_btn"
+          app:fab_backgroundColor="@android:color/white"
+          app:fab_iconSrc="@drawable/trash"
+          app:fab_iconSize="38dp"
+          android:layout_alignRight="@id/all_changes_btn"
+          />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="15dp"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="@drawable/bg_cardd"
+        android:padding="10dp">
+
+            <TextView
+                android:id="@+id/user_delivery_choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/truk_kirim"
+                android:text=" Jasa Pengiriman"
+                android:textColor="#04aaf3"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_delivery_resiii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_delivery_choose"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/status_delivery"
+                android:text=" No Resi Anda :   "
+                android:textColor="#04aaf3"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_delivery_resi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_delivery_choose"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="15dp"
+                android:text=" No resi"
+                android:textColor="#04aaf3"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_delivery_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_delivery_resi"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="19dp"
+                android:drawableLeft="@drawable/calendar"
+                android:text=" Dikirim pada Tanggal"
+                android:textColor="#04aaf3"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_delivery_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_delivery_date"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/indonesian_rupiah"
+                android:text=" Harga Ongkir"
+                android:textColor="#04aaf3"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_delivery_price"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_button2"
+                android:drawableLeft="@drawable/document"
+                android:text="Salin No Resi"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/JNE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/copy"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_button2"
+                android:drawableLeft="@drawable/track"
+                android:text="Lacak Pengiriman"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

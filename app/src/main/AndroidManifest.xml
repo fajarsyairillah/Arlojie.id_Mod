@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pasarkaget.fajar.pasarkaget">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".Admin.AdminAddNewProductActivity" />
+        <activity android:name=".Admin.AdminCategoryActivity" />
+        <activity android:name=".UserCategoryActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Admin.HomeActivityAdmin"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SettingActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".ProductDetailsActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity android:name=".Admin.AdminNewOrdersActivity" />
+        <activity android:name=".Admin.AdminUserProductsActivity" />
+        <activity android:name=".SearchProductsActivity" />
+        <activity android:name=".Admin.AdminMaintainActivity" />
+        <activity android:name=".Admin.AdminMaintainProductsActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".ConfirmPaymentsActivity" />
+        <activity android:name=".MainCategoryActivity" />
+        <activity android:name=".Category.MainCategoryAnalogActivity" />
+        <activity android:name=".Category.MainCategoryDigitalActivity" />
+        <activity android:name=".Category.MainCategoryDigitalAnalogActivity" />
+        <activity android:name=".Category.MainCategoryPintarActivity" />
+        <activity android:name=".Category.MainCategoryAlarmActivity" />
+        <activity android:name=".Category.MainCategoryWeckerActivity" />
+        <activity android:name=".Category.MainCategoryRantaiActivity" />
+        <activity android:name=".Category.MainCategoryWanitaActivity" />
+        <activity android:name=".Category.MainCategoryCoupleActivity" />
+        <activity android:name=".MyOrdersActivity" />
+        <activity android:name=".Admin.SalesReportActivity" />
+        <activity
+            android:name=".HowToOrdersActivity"
+            android:label="@string/title_activity_how_to_orders"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Admin.AdminUserPaymentActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".Admin.AdminDeliveryActivity" />
+        <activity android:name=".DeliveryUserActivity" />
+        <activity android:name=".Admin.BerandaAdmin" />
+        <activity android:name=".Admin.KategoriAdmin" />
+        <activity android:name=".KategoriUser" />
+        <activity android:name=".LoginMultipleActivity"></activity>
+    </application>
+
+</manifest>

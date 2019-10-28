@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1058230829948",
+    "firebase_url": "https://pasar-kaget-976e6.firebaseio.com",
+    "project_id": "pasar-kaget-976e6",
+    "storage_bucket": "pasar-kaget-976e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058230829948:android:350cfa5ae94f9cee",
+        "android_client_info": {
+          "package_name": "com.pasarkaget.fajar.pasarkaget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058230829948-meucj0mt1q87f3rhho0s08hdg7pabipr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pasarkaget.fajar.pasarkaget",
+            "certificate_hash": "c278ba217ba7599120a90c484dcbe67da52da933"
+          }
+        },
+        {
+          "client_id": "1058230829948-jiog4inbv64vfr087plaeq8a1a9ast47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcrCiazkIg5a444HC0km0vQqZRdAvuTxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058230829948-jiog4inbv64vfr087plaeq8a1a9ast47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

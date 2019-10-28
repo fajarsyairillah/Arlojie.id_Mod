@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminCategoryActivity"
+    android:background="@android:color/white">
+    
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Tambah Barang"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/analog_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/analogwatch"
+            />
+
+        <ImageView
+            android:id="@+id/digital_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/digitalwatch"
+            />
+        <ImageView
+            android:id="@+id/chain_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/chainwatch"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/female_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/femalewatch"
+            />
+        <ImageView
+            android:id="@+id/smart_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/smartwatch"
+            />
+        <ImageView
+            android:id="@+id/analog_digital_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="95dp"
+            android:src="@drawable/digitalanalog"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/couple_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/rsz_couplewatch"
+            />
+        <ImageView
+            android:id="@+id/alarm_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/alarm"
+            />
+        <ImageView
+            android:id="@+id/wecker_watch"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/wecker_clock"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

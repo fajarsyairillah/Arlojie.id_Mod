@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_cardd"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/sales_user_name"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:drawableTop="@drawable/nama_user"
+            android:text=" Nama User"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sales_phone_number"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableTop="@drawable/phone_number"
+            android:text=" Nomor Telepon"
+            android:textAlignment="center"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sales_total_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sales_phone_number"
+            android:layout_marginTop="25dp"
+            android:drawableTop="@drawable/indonesianrupiah"
+            android:gravity="center"
+            android:text="Total Harga"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sales_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sales_total_price"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/status_delivery"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sales_address_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sales_state"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/alamat"
+            android:gravity="center"
+            android:text="Alamat, Kota"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sales_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sales_address_city"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/calendar"
+            android:gravity="center"
+            android:text="Tanggal Dan Waktu Pesanan"
+            android:textColor="#04aaf3"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sales_all_products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sales_date_time"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_button2"
+            android:drawableLeft="@drawable/checklist_btn"
+            android:text="Tampilkan Pesanan"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+</RelativeLayout>
+</RelativeLayout>

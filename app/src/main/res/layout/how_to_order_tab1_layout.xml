@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_tengah">
+
+    <TextView
+        android:id="@+id/cara_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara Order"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/cara1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/cara_order"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="1. Memilih Barang dan Memasukkan Jumlah Barang yang Akan Dibeli."
+        />
+    <TextView
+        android:id="@+id/cara2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/cara1"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="2. Klik Icon Keranjang dan Mengisi Form Pemesanan."
+        />
+    <TextView
+        android:id="@+id/cara3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/cara2"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="3. Klik Menu Pesanan Anda lalu Melakukan Konfirmasi Pembayaran."
+        />
+    <TextView
+        android:id="@+id/cara4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/cara3"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="4. Klik Cek Pengiriman pada Menu Pesanan Anda Untuk Melihat Info Pengiriman Barang."
+        />
+
+    <TextView
+        android:id="@+id/cara5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/cara4"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="5. Bila Ada Pertanyaan Silahkan Klik Menu Tentang Kami dan Klik Icon Informasi."
+        />
+
+</RelativeLayout>

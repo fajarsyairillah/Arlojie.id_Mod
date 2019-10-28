@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_maintain_products_admin"
+            android:icon="@drawable/boxes"
+            android:title="Kelola Barang"
+            android:iconTint="@android:color/black"/>
+        <item
+            android:id="@+id/nav_add_new_products_admin"
+            android:icon="@drawable/wrist_watch"
+            android:title="Tambah Barang"
+            android:iconTint="@android:color/black"/>
+        <item
+            android:id="@+id/nav_orders_admin"
+            android:icon="@drawable/orders"
+            android:title="Pesanan"
+            android:iconTint="@android:color/black"/>
+        <item
+            android:id="@+id/nav_sales_report_admin"
+            android:icon="@drawable/sales_report"
+            android:title="Laporan Penjualan"
+            android:iconTint="@android:color/black"/>
+        <item
+            android:id="@+id/nav_logout_admin"
+            android:icon="@drawable/logout"
+            android:title="Keluar"
+            android:iconTint="@android:color/black"/>
+    </group>
+</menu>
